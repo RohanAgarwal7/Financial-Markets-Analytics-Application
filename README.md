@@ -1,14 +1,14 @@
 # Financial Market Analytics Application
 
 ## Overview
-The Financial Market Analytics Application is a comprehensive tool designed to aggregate, process, and analyze financial data from diverse sources, including fundamental metrics, sentiment data from news and social media, and technical indicators. Leveraging advanced AI, particularly fine-tuned Large Language Models (LLMs), the application provides actionable insights into stock performance through an interactive dashboard. The entire solution is containerized using Docker and orchestrated with Docker Compose for easy deployment and reproducibility.
+The Financial Market Analytics Application is a comprehensive tool designed to aggregate, process, and analyse financial data from diverse sources, including fundamental metrics, sentiment data from news and social media, and technical indicators. Leveraging advanced AI, particularly fine-tuned Large Language Models (LLMs), the application provides actionable insights into stock performance through an interactive dashboard. The entire solution is containerised using Docker and orchestrated with Docker Compose for easy deployment and reproducibility.
 
 ## Features
 - **Data Aggregation**: Collects fundamental metrics (e.g., earnings, ratios), sentiment data (news, social media), and technical indicators (e.g., RSI, moving averages) from multiple financial APIs such as Yahoo Finance, Alpha Vantage, and Google News API.
-- **Data Pipeline**: Automated ETL pipeline to extract, transform, and load data into a containerized database (PostgreSQL or MongoDB), ensuring data integrity and security.
-- **Machine Learning Analysis**: Utilizes fine-tuned LLMs for domain-specific sentiment analysis and incorporates predictive models for stock trend forecasting.
-- **Interactive Dashboard**: Responsive web or mobile interface displaying trends, visualizations, and real-time alerts for significant market changes.
-- **Containerized Deployment**: Fully containerized using Docker, with Docker Compose for orchestrating multi-container setups, enabling portable and reproducible deployments.
+- **Data Pipeline**: Automated ETL pipeline to extract, transform, and load data into a containerised database (PostgreSQL or MongoDB), ensuring data integrity and security.
+- **Machine Learning Analysis**: Utilises fine-tuned LLMs for domain-specific sentiment analysis and incorporates predictive models for stock trend forecasting.
+- **Interactive Dashboard**: Responsive web or mobile interface displaying trends, visualisations, and real-time alerts for significant market changes.
+- **Containerised Deployment**: Fully containerised using Docker, with Docker Compose for orchestrating multi-container setups, enabling portable and reproducible deployments.
 - **Real-Time Capabilities**: Supports real-time data streaming (e.g., via Kafka) for live market tracking and alerts.
 
 ## Project Structure
@@ -58,23 +58,8 @@ Dashboard: Navigate the interactive dashboard to view stock trends, sentiment an
 APIs: Access the internal API endpoints for raw data or processed insights (see /docs/api.md).
 Real-Time Alerts: Enable streaming for live updates (requires Kafka setup, see /docs/streaming.md).
 
-Documentation
-
-User Guide: /docs/user_guide.md for dashboard navigation and features.
-Technical Architecture: /docs/architecture.md for system design and component interactions.
-API Documentation: /docs/api.md for endpoint details.
-Setup and Deployment: /docs/deployment.md for advanced deployment options.
-
-Contributing
-Contributions are welcome! Please follow these steps:
-
 Fork the repository.
 Create a feature branch (git checkout -b feature/your-feature).
 Commit your changes (git commit -m "Add your feature").
 Push to the branch (git push origin feature/your-feature).
 Open a Pull Request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-Contact
-For questions or support, contact the project lead: Hirad Rezaei (details in /docs/contact.md).```
