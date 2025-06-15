@@ -53,9 +53,7 @@ docker-compose exec app pytest /data_pipeline/tests
 
 Usage
 
-Dashboard: Navigate the interactive dashboard to view stock trends, sentiment analysis, and technical indicators. Customize visualizations and set up alerts for market events.
-APIs: Access the internal API endpoints for raw data or processed insights (see /docs/api.md).
-Real-Time Alerts: Enable streaming for live updates (requires Kafka setup, see /docs/streaming.md).
+Dashboard: Navigate the interactive dashboard to view stock trends, sentiment analysis, and technical indicators. Customise visualisations and set up alerts for market events.
 
 Fork the repository.
 Create a feature branch (git checkout -b feature/your-feature).
