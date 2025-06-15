@@ -7,9 +7,8 @@ The Financial Market Analytics Application is a comprehensive tool designed to a
 - **Data Aggregation**: Collects fundamental metrics (e.g., earnings, ratios), sentiment data (news, social media), and technical indicators (e.g., RSI, moving averages) from multiple financial APIs such as Yahoo Finance, Alpha Vantage, and Google News API.
 - **Data Pipeline**: Automated ETL pipeline to extract, transform, and load data into a containerised database (PostgreSQL or MongoDB), ensuring data integrity and security.
 - **Machine Learning Analysis**: Utilises fine-tuned LLMs for domain-specific sentiment analysis and incorporates predictive models for stock trend forecasting.
-- **Interactive Dashboard**: Responsive web or mobile interface displaying trends, visualisations, and real-time alerts for significant market changes.
+- **Interactive Dashboard**: Responsive web or mobile interface displaying trends and visualisations for significant market changes.
 - **Containerised Deployment**: Fully containerised using Docker, with Docker Compose for orchestrating multi-container setups, enabling portable and reproducible deployments.
-- **Real-Time Capabilities**: Supports real-time data streaming (e.g., via Kafka) for live market tracking and alerts.
 
 ## Project Structure
 
